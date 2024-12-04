@@ -401,12 +401,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1599567538, guid: 69a1ad218c78b714a8520ab11856c316, type: 3}
+  m_Sprite: {fileID: 1639406139, guid: 5147545fca5522d41ba31e0af50549f8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.6062745, y: 1.28}
+  m_Size: {x: 0.72, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -442,8 +442,10 @@ MonoBehaviour:
   animator: {fileID: 1969592587}
   currentEffect: 0
   currentSpell: 0
+  currentProjectile: 3
   effectAnim: {fileID: 9100000, guid: 3ebd41b2b2fc10e4bb6af77a067c4d95, type: 2}
   spellAnim: {fileID: 9100000, guid: cec8df339918ecc4f9c1e4484b488430, type: 2}
+  projectileAnim: {fileID: 9100000, guid: 3f57cb55349ad4b47bdfccdf36d9f45f, type: 2}
 --- !u!95 &1969592587
 Animator:
   serializedVersion: 5
@@ -454,7 +456,7 @@ Animator:
   m_GameObject: {fileID: 1969592581}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cec8df339918ecc4f9c1e4484b488430, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3f57cb55349ad4b47bdfccdf36d9f45f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
